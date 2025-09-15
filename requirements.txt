@@ -1,0 +1,5 @@
+openai>=1.0.0
+python-dotenv>=1.0.0
+numpy>=1.21.0
+tqdm>=4.64.0
+graphviz>=0.20.0
