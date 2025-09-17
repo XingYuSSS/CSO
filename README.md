@@ -42,13 +42,10 @@ python change_data_kto.py
 
 ## Citation
 ```
-@misc{zhao2025chainstrategyoptimizationmakes,
-      title={Chain of Strategy Optimization Makes Large Language Models Better Emotional Supporter}, 
-      author={Weixiang Zhao and Xingyu Sui and Xinyang Han and Yang Deng and Yulin Hu and Jiahe Guo and Libo Qin and Qianyun Du and Shijin Wang and Yanyan Zhao and Bing Qin and Ting Liu},
-      year={2025},
-      eprint={2503.05362},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2503.05362}, 
+@article{zhao2025chain,
+  title={Chain of Strategy Optimization Makes Large Language Models Better Emotional Supporter},
+  author={Zhao, Weixiang and Sui, Xingyu and Han, Xinyang and Deng, Yang and Hu, Yulin and Guo, Jiahe and Qin, Libo and Du, Qianyun and Wang, Shijin and Zhao, Yanyan and others},
+  journal={arXiv preprint arXiv:2503.05362},
+  year={2025}
 }
 ```
