@@ -2,6 +2,8 @@
 
 This repository contains code for the EMNLP 2025 Findings paper [Chain of Strategy Optimization Makes Large Language Models Better Emotional Supporter](https://arxiv.org/abs/2503.05362)
 
+[ESCPro Dataset link](https://huggingface.co/datasets/XingYuSSS/ESC-Pro)
+
 ## Overview
 
 The system generates high-quality emotional support conversations through a three-stage pipeline:
