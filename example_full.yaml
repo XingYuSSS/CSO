@@ -1,0 +1,39 @@
+### model
+
+model_name_or_path: {model_path}
+
+### method
+stage: dpo
+do_train: true
+finetuning_type: full
+deepspeed: {path_to_LLaMA-Factory}/examples/deepspeed/ds_z2_config.json
+pref_beta: {beta}
+pref_loss: {loss}  # choices: [sigmoid (dpo), orpo, simpo, ipo]
+simpo_gamma: {gamma}
+
+
+dataset: {dataset}
+output_dir: {out_path}
+
+template: {template}
+cutoff_len: 4096
+max_samples: 10000
+overwrite_cache: true
+preprocessing_num_workers: 16
+
+### output
+
+logging_steps: 10
+save_strategy: "no"
+plot_loss: true
+overwrite_output_dir: true
+
+### train
+per_device_train_batch_size: {per_bs}
+gradient_accumulation_steps: {grandient_bs}
+learning_rate: {lr}
+num_train_epochs: {epochs}
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
